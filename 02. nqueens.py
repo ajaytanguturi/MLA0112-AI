@@ -20,5 +20,5 @@ for answer in solutions:
 # Print chessboard with queens
 for row in range(BOARD_SIZE):
     for col in range(BOARD_SIZE):
-        print('Q' if (row + 1, col + 1) in answer else '*', end=' ')
+        print('Q' if (row + 1, col + 1) in answer else '-', end=' ')
     print()
