@@ -24,3 +24,8 @@ def solve():
 def print_solution(solution):
     if not solution:
         print("No solution.")
+    else:
+        for step in solution:
+            print(step)
+solution=solve()
+print_solution(solution)
